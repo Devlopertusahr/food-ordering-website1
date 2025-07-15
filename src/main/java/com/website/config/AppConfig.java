@@ -43,8 +43,8 @@ public class AppConfig {
                 CorsConfiguration cfg = new CorsConfiguration();
 
                 cfg.setAllowedOrigins(Arrays.asList(
-                        ",erpcmreviciervmov idhar  "
-                        "https://localhost:3000",
+                        ",erpcmreviciervmov idhar  ",
+                        "https://localhost:3000"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
                 cfg.setAllowCredentials(true);
