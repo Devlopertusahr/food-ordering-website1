@@ -80,7 +80,7 @@ private CartRepository cartRepository;
       AuthResponse authResponse = new AuthResponse();
       authResponse.setJwt(jwt);
       authResponse.setMessage("Login success");
-
+// ft
       authResponse.setRole(USER_ROLE.valueOf(role));
 
 
